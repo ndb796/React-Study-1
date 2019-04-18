@@ -12,12 +12,13 @@
   },
   "scripts": {
     "start": "set NODE_ENV=development&&webpack-dev-server",
-    "build": "set NODE_ENV=productio&&webpack -p"
+    "build": "set NODE_ENV=production&&webpack -p"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "babel-preset-react-app": "^7.0.2",
+    "copy-webpack-plugin": "^5.0.2",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.1"
